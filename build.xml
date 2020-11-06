@@ -3,7 +3,7 @@
 
 <target name="UpdateRestTrigger">
 <exec executable="curl">
-<arg line="curl -X POST -u ankita.deulkar@lntinfotech.com:Asdfghjkl@2020 -H X-HTTP-Method-Override:PATCH -H Content-Type:application/json -d @${JSON_Location} https://oicintegrationinstance-bmcg1bx14wqj-bo.integration.ocp.oraclecloud.com/ic/api/integration/v1/connections/RestDEMO"/>
+<arg line="curl -X POST -u ankita.deulkar@lntinfotech.com:Asdfghjkl@2020 -H X-HTTP-Method-Override:PATCH -H Content-Type:application/json -d @${JSON_Location} https://oicintegrationinstance-bmcg1bx14wqj-bo.integration.ocp.oraclecloud.com/ic/api/integration/v1/connections/RESTDEMO"/>
 </exec>
 </target>
 
